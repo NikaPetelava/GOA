@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(173, 0, 173);
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(173, 0, 173);
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  align-self: start;
+  cursor: pointer;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px 200px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+}
+
+img {
+  margin-right: 80px;
+}
+
+h2 {
+  font-size: 56px;
+  margin-bottom: 0;
+}
+
+section p {
+  width: 400px;
+  font-size: 18px;
+}
