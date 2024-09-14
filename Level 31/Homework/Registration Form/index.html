@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-left">
+          <h2>General Information</h2>
+          <form action="">
+            <div class="form-group">
+              <select name="title" id="title">
+                <option value="">Title</option>
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div class="full-name">
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <select name="position" id="position">
+                <option value="">Position</option>
+                <option value="">Software Engineer</option>
+                <option value="">Full-stack developers</option>
+                <option value="">Front-end Developer</option>
+                <option value="">Back-end Developer</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="company"
+                name="company"
+                placeholder="Company"
+              />
+            </div>
+
+            <div class="form-group">
+              <div class="business">
+                <input
+                  type="text"
+                  id="arena"
+                  name="arena"
+                  placeholder="Business Arena"
+                />
+
+                <select name="employees" id="employees">
+                  <option value="">Employees</option>
+                  <option value="">1-10</option>
+                  <option value="">11-50</option>
+                  <option value="">51-100</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-right">
+          <h2>Contact Details</h2>
+          <div class="form-group">
+            <input
+              type="text"
+              id="street"
+              name="street"
+              placeholder="Street + Nr"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="info"
+              name="info"
+              placeholder="Additional information"
+            />
+          </div>
+
+          <div class="form-group">
+            <div class="place">
+              <input type="text" id="zip" name="zip" placeholder="Zip Code" />
+              <select name="place" id="place">
+                <option value="">Place</option>
+                <option value="">Tbilisi</option>
+                <option value="">New York</option>
+                <option value="">London</option>
+                <option value="">Tokyo</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <select name="country" id="country">
+              <option value="">Country</option>
+              <option value="geo">Georgia</option>
+              <option value="usa">United States</option>
+              <option value="uk">United Kingdom</option>
+              <option value="jp">Japan</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <div class="phone">
+              <input type="text" id="code" name="code" placeholder="Code+" />
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+            />
+          </div>
+
+          <div class="form-group terms">
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="terms"
+              >I do accept the <a href="#">Terms and Conditions</a> of your
+              site.</label
+            >
+          </div>
+
+          <button type="submit">Register Badge</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
