@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      div {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        color: white;
+        font-size: 50px;
+      }
+
+      div:nth-child(2) {
+        background-color: green;
+        position: relative;
+        left: 300px;
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Position: static; არის ელემენტების სტანდარტული პოზიცია , სტატიკურ პოზიციაზე 
+    ვერ ვიყენებთ კუთვნილებებს top, bottom, left, right რათა შევცვალოთ ელემენტის პოზიცია.
+    Position: relative; ელემენტი დაკავშირებულია მის ნორმალურ პოზიციასთან, მაგრამ შეგვიძლია გამოვიყენოთ 
+    კუთვნილებები top, bottom, left, right რისი მეშვეობითაც ელემენტს გადავაადგილებთ იმ პოზიციაზე რომელიზეს გვინდა
+    თავისი ნორმალური პოზიციიდან..
+        
+    -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </body>
+</html>

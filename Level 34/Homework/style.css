@@ -1,0 +1,53 @@
+.loading-bar {
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.inner-bar {
+  width: 0px;
+  height: 30px;
+  background-color: cyan;
+  animation: loadingbar 5s linear;
+}
+
+@keyframes loadingbar {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 500px;
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin: 300px 300px;
+  animation: boxanimation 5s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes boxanimation {
+  20% {
+    background-color: cyan;
+    height: 120px;
+  }
+
+  40% {
+    background-color: green;
+    height: 140px;
+  }
+
+  60% {
+    background-color: yellow;
+    height: 160px;
+  }
+
+  100% {
+    background-color: indigo;
+    height: 180px;
+  }
+}

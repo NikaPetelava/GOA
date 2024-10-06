@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 110px;
+  grid-template-rows: 30px 30px 70px 70px 50px 50px 50px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.item1 {
+  color: white;
+  background: #0f1629;
+}
+
+.item2 {
+  color: white;
+  background: #ec3b4c;
+}
+.item3 {
+  color: white;
+  background: #4c8cbd;
+}
+.item4 {
+  color: white;
+  background: #24344b;
+}
+.item5 {
+  color: #000;
+  background: #ffd169;
+}
+.item6 {
+  color: #000;
+  background: #4dbd97;
+}
+.item7 {
+  color: #000;
+  background: #c1e4e6;
+}
