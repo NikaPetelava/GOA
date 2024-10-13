@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="h1">HTML</h1>
+    <h2 id="h2">CSS</h2>
+    <h3 id="h3">JavasCript</h3>
+
+    <button id="btn">Click Here</button>
+
+    <h1 id="header"></h1>
+    <p id="paragraph"></p>
+
+    <script>
+      document.getElementById("h1").textContent = "Header #1";
+      document.getElementById("h2").textContent = "Header #2";
+      document.getElementById("h3").textContent = "Header #3";
+
+      let button = document.getElementById("btn");
+      console.log(button);
+
+      document.getElementById("header").textContent = "GOA";
+      document.getElementById("paragraph").textContent =
+        "Goal Oriented Academy ";
+    </script>
+  </body>
+</html>
