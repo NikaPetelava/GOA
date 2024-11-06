@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cbdceb;
+}
+
+.calculator {
+  position: relative;
+  border: 1px solid F3F3E0;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: #608bc1;
+}
+
+#input-number {
+  text-align: center;
+  width: 50%;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+
+.buttons button {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  width: 100px;
+  cursor: pointer;
+}
