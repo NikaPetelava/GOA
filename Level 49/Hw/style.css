@@ -1,0 +1,29 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 166, 0);
+  border-radius: 50%;
+}
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: lightseagreen;
+}
+.elipse {
+  height: 100px;
+  width: 200px;
+  background-color: lightpink;
+  border-radius: 50%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid lightblue;
+}
