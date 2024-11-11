@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.svg" alt="" class="header__image" />
+      <a href="#" class="header__link">Try it free</a>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+        <p class="hero__description">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="hero__btn">Get Started For Free</button>
+      </section>
+      <!-- <section class="amount">
+        <div class="amount__communities">
+          <img
+            src="/images/icon-communities.svg"
+            alt=""
+            class="amount__icon"
+            style="width: 47px"
+          />
+          <h2 class="amount__title">1.4k+</h2>
+          <p class="amount__description">Communities Formed</p>
+        </div>
+        <div class="amount__messages">
+          <img
+            src="./images/icon-messages.svg"
+            alt=""
+            class="amount__icon"
+            style="width: 48px"
+          />
+          <h2 class="amount__title">2.7m+</h2>
+          <p amount__description>
+            Messages <br />
+            Sent
+          </p>
+        </div>
+      </section> -->
+      <section class="grow">
+        <img
+          src="/images/illustration-grow-together.svg"
+          alt=""
+          class="grow__image"
+        />
+        <div>
+          <h3 class="grow__title">Grow Together</h3>
+          <p class="grow__description">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+      </section>
+      <section class="flowing">
+        <img
+          src="/images/illustration-flowing-conversation.svg"
+          alt=""
+          class="flowing__image"
+        />
+        <div>
+          <h3 class="flowing__title">Flowing Conversations</h3>
+          <p class="flowing__description">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </section>
+      <section class="users">
+        <img
+          src="/images/illustration-your-users.svg"
+          alt=""
+          class="users__image"
+        />
+        <div>
+          <h3 class="users__title">Your Users</h3>
+          <p class="users__description">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+      </section>
+      <section class="community">
+        <h2 class="community__title">Ready To Build Your Community?</h2>
+        <button class="community__btn">Get Started For Free</button>
+      </section>
+    </main>
+
+    <picture>
+      <source
+        media="(min-width: 568px)"
+        srcset="images/bg-footer-top-desktop.svg"
+      />
+      <img src="./images/bg-footer-top-mobile.svg" class="footer-img" />
+    </picture>
+
+    <footer>
+      <div class="newsletter">
+        <h3 class="newsletter__title">Newsletter</h3>
+        <p class="newsletter__description">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <form>
+          <input type="email" class="email" id="email" />
+          <input type="submit" value="Subscribe" class="submit" />
+        </form>
+      </div>
+      <div class="huddle">
+        <img src="./images/footer-logo.svg" class="huddle__image" />
+        <p class="huddle__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <ul class="huddle__contact">
+          <li><img src="./images/icon-phone.svg" />Phone: +1-543-123-4567</li>
+          <li><img src="./images/icon-email.svg" />example@huddle.com</li>
+        </ul>
+
+        <div class="huddle__socials"></div>
+      </div>
+    </footer>
+  </body>
+</html>
