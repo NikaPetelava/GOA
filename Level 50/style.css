@@ -1,0 +1,57 @@
+:root {
+  --clr-dark: #070a13;
+  --clr-light: #f1f5f9;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.theme-toggle {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+}
+
+.dark-mode {
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9;
+}
+
+#output {
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+form input {
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  margin: 0 10px;
+}
